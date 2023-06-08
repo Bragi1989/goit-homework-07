@@ -801,6 +801,7 @@ display: flex;
     .customers-list {
       display: flex;
       flex-wrap: nowrap;
+      gap: 24px;
      }
            
     .compani-list-menu {
