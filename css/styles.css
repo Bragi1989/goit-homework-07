@@ -225,7 +225,7 @@ position: absolute;
 
 .container-menu-list-tree {
 display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .container-menu-list-icon {
   width: 40px;
