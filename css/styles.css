@@ -225,7 +225,7 @@ position: absolute;
 
 .container-menu-list-tree {
 display: flex;
-  justify-content: space-around;
+  gap: 56px;
 }
 .container-menu-list-icon {
   width: 40px;
@@ -263,6 +263,12 @@ display: flex;
 
 .social-list-icon {
   fill: var(--color-secondary-backgraund);
+}
+@media screen and (max-width: 427px) {
+  .container-menu-list-tree {
+      
+      gap: 24px;
+    }
 }
 @media screen and (min-width: 768px) {
   .mobile-menu-open-btn {
@@ -332,7 +338,7 @@ display: flex;
       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .head-contakct-padding {
-      padding-bottom: 12px;
+      margin-bottom: 12px;
     }
   
     .head-contact:hover,
@@ -498,6 +504,7 @@ display: flex;
 }
 @media screen and (min-width: 1158px) {
 .section-one {
+  max-width: 1440px;
     min-width: 1158px; 
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/bg.jpg);
   padding: 188px 0;
@@ -580,7 +587,7 @@ display: flex;
 
 .info-section-two {
   font-family: var(--main-font-family);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -589,7 +596,7 @@ display: flex;
 
 @media screen and (min-width: 768px) {
   .sections-second {
-      padding: 120px 0;
+      padding: 96px 0;
     }
 
     .section-two-list {
@@ -823,7 +830,8 @@ display: flex;
   display: flex; 
   flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
+  column-gap: 16px;
+  row-gap: 72px;
 }
 
 .compani-list-menu {
@@ -1118,7 +1126,7 @@ display: flex;
   .footer-main {
     margin-right: 120px;
     text-align: left;
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   .logo-link {
